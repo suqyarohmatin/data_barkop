@@ -15,7 +15,7 @@
       <div class="box-body box-profile">
             <img class="profile-user-img img-responsive img-circle" src="assets/img/team/1.jpg" alt="User profile picture">
 
-            <h3 class="profile-username text-center">Linda </h3>
+            <h3 class="profile-username text-center">Linda tri wulandari </h3>
 
             <p class="text-muted text-center">Pembimbing</p>
        </div>
@@ -39,7 +39,7 @@
        <div class="box-body box-profile">
             <img class="profile-user-img img-responsive img-circle" src="assets/img/team/10.jpg" alt="User profile picture">
 
-            <h3 class="profile-username text-center">azarian</h3>
+            <h3 class="profile-username text-center">azaria diva natanaila</h3>
 
             <p class="text-muted text-center">Anggota</p>
        </div>
@@ -47,7 +47,7 @@
        <div class="box-body box-profile">
             <img class="profile-user-img img-responsive img-circle" src="assets/img/team/11.jpg" alt="User profile picture">
 
-            <h3 class="profile-username text-center">Zevalia </h3>
+            <h3 class="profile-username text-center">Zevalia putri </h3>
 
             <p class="text-muted text-center">Anggota</p>
        </div>
