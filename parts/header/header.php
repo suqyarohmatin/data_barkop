@@ -26,12 +26,13 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="img/logo projeck koprasi sekolah.png" class="user-image" alt="User Image">
+              <img src="img/logo.png" class="user-image" alt="User Image"p>ADMIN</P>>
+             
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="img/logo projeck koprasi sekolah.png" class="img-circle" alt="User Image">
+                <img src="img/logo.png" class="img-circle" alt="User Image">
 
                 <p>
                     Admin 

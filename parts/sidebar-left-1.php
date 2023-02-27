@@ -17,8 +17,8 @@
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="?hal=santri_tampil"><i class="fa fa-users"></i>Data BARKOP </a></li>
-            <li><a href="?hal=santri_tampil1"><i class="fa fa-building"></i>Data PENITIP</a></li>
+            <li><a href="?hal=koperasi_tampil"><i class="fa fa-users"></i>Data BARKOP </a></li>
+            <li><a href="?hal=koperasi_tampil1"><i class="fa fa-building"></i>Data PENITIP</a></li>
           </ul>
         </li>
       </ul>
