@@ -12,30 +12,35 @@
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
-                    <form action="?hal=koperasi_insert" method="post" role="form">
+                    <form  action="?hal=koperasi_insert" method="post" role="form">
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="tanggal">tanggal</label>
-                                <input type="date" class="timestamp" name="tanggal" id="tanggal" placeholder="tanggal"required>
+                                <input type="date" class="form-control" name="tanggal" id="tanggal" placeholder="tanggal"required>
                             </div>
                             <div class="form-group">
-                                <label for="nama">nama</label>
-                                <input type="varchar" class="form-control" name="nama" id="nama" placeholder="nama"required>
+                                <label for="barang">barang</label>
+                                <input type="varchar" class="form-control" name="barang" id="barang" placeholder="barang"required>
                             </div>
                             <div class="form-group">
                                 <label for="jumlah">jumlah</label>
                                 <input type="varchar" class="form-control" name="jumlah" id="jumlah" placeholder="jumlah"required>
+                            </div>   
                             <div class="form-group">
                                 <label for="beli">beli</label>
-                                <input type="text" class="form-control" name="beli" id="beli" placeholder="beli"required>
+                                <input type="number" class="form-control" name="beli" id="beli" placeholder="beli"required
+                                onkeyup="cek_laba();"
+                                >
                             </div>
                             <div class="form-group">
                                 <label for="jual">jual</label>
-                                <input type="text" class="form-control" name="jual" id="jual" placeholder="jual"required>
+                                <input type="number" class="form-control" name="jual" id="jual" placeholder="jual"required 
+                                onkeyup="cek_laba();"
+                                >
                             </div>
                             <div class="form-group">
                                 <label for="laba">laba</label>
-                                <input href="?hal=koperasi_insert_laba"required>
+                                <input type="number" class="form-control" name="laba" id="laba" required>
                             </div>
                             
  
@@ -54,4 +59,16 @@
             </div>
             <!--/.col (left) -->
         </div>
-</selection>
+</section>
+
+
+<script>
+function cek_laba() {
+      var txtFirstNumberValue = document.getElementById('beli').value;
+      var txtSecondNumberValue = document.getElementById('jual').value;
+      var result = parseInt(txtSecondNumberValue) - parseInt(txtFirstNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('laba').value = result;
+      }
+}
+</script>

@@ -1,5 +1,5 @@
 <section class="content-header">
-<h1><CENTER>DATA PENITIP</CENTER></h1>
+<h1><CENTER>DATA BARANG PENITIP</CENTER></h1>
 </section>
 <!-- Main content -->
 <section class="content">
@@ -13,25 +13,11 @@
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
-              <div class="row">
-        <div class="col-xs-12">
-          
-            <div class="box-header">
-              <div class="box-tools">
-                <div class="input-group input-group-sm hidden-xs" style="width: 150px;">
-                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
-
-                <div class="input-group-btn">
-                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
-                </div>
-                </div>
-              
-            </div>
                 <thead>
                 <tr>
                   <th>No</th>
                   <th>tanggal</th>
-                  <th>barang</th>
+                  <th>nama barang</th>
                   <th>Jumlah</th>
                   <th>Beli</th>
                   <th>Jual</th>
@@ -40,8 +26,10 @@
                   <th>jumbel</th>
                   <th>jumal</th>
                   <th>laba</th>
+                  <th>aksi</th>
                 </tr>
                 </thead>
+                </body>  
                 
 <?php
 $tampil = "SElECT * FROM data_penitip";

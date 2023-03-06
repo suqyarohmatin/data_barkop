@@ -35,7 +35,7 @@ $data = mysqli_fetch_array($query);
                     </div>
                     <div class="form-group">
                       <label for="tanggal">tanggal : </label>
-                      <input type="date" class="timestamp" name="tanggal" id="tanggal" value="<?= $data['tanggal'] ?>" required>
+                      <input type="date" class="form-control" name="tanggal" id="tanggal" value="<?= $data['tanggal'] ?>" required>
                     </div>
                     <div class="form-group">
                       <label for="barang">barang : </label>
@@ -63,11 +63,15 @@ $data = mysqli_fetch_array($query);
                     </div>
                     <div class="form-group">
                       <label for="jumbel"> Jumbel: </label>
-                      <input type="text" class="form-control"  name="jumbel" id="jumbel" value="<?= $data['jumbel'] ?>" required>
+                      <input type="text" class="form-control"  name="jumbel" id="jumbel" value="<?= $data['jumbel'] ?>" required
+                      onkeyup="cek_laba();"
+                      >
                     </div>
                     <div class="form-group">
                       <label for="jumal"> Jumal: </label>
-                      <input type="text" class="form-control" name="jumal" id="jumal" value="<?= $data['jumal'] ?>" required>
+                      <input type="text" class="form-control" name="jumal" id="jumal" value="<?= $data['jumal'] ?>" required
+                      onkeyup="cek_laba();"
+                      >
                     </div>
                     <div class="form-group">
                       <label for="laba"> laba: </label>
@@ -86,5 +90,16 @@ $data = mysqli_fetch_array($query);
         </div>
 </div>
 </section>
+<script>
+function cek_laba() {
+      var txtFirstNumberValue = document.getElementById('jumbel').value;
+      var txtSecondNumberValue = document.getElementById('jumal').value;
+      var result = parseInt(txtSecondNumberValue) - parseInt(txtFirstNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('laba').value = result;
+      }
+}
+</script>
+
 </body>
 </html>

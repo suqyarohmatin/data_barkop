@@ -4,6 +4,16 @@
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
 
+    <div class="user-panel">
+        <div class="pull-left image">
+          <img src="img/logo.png" class="img-circle" alt="User Image">
+        </div>
+        <div class="pull-left info">
+          <p>Management Koperasi <br> Sekolah</p>
+          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+        </div>
+      </div>
+
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">DAFTAR MENU</li>
@@ -17,8 +27,8 @@
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="?hal=koperasi_tampil"><i class="fa fa-users"></i>Data BARKOP </a></li>
-            <li><a href="?hal=koperasi_tampil1"><i class="fa fa-building"></i>Data PENITIP</a></li>
+            <li><a href="?hal=koperasi_tampil"><i class="fa fa-tags"></i>Data BARKOP </a></li>
+            <li><a href="?hal=koperasi_tampil1"><i class="fa fa-list"></i>Data Barang PENITIP</a></li>
           </ul>
         </li>
       </ul>

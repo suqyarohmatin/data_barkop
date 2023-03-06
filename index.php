@@ -45,7 +45,7 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition skin-red sidebar-mini">
+<body class="hold-transition skin-green sidebar-mini">
 <div class="wrapper">
 
 <?php include "parts/header/header.php" ?>
@@ -59,20 +59,31 @@ switch ($_SESSION['role']) {
 
 
 }
+
+switch ($_SESSION['role']) {
+    case 2: //admin   <div class="form-group">
+               
+        include "parts/sidebar-left-2.php";
+        break;
+
+
+}
 ?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
   <?php include "konten.php" ?>
+
   </div>
   <!-- /.content-wrapper -->
 
 
 
   <?php // include "parts/sidebar-right.php" ?>
+  <?php include "parts/footer.php" ?>
   
 </div>
- <?php include "parts/footer.php" ?>
+
 <!-- ./wrapper -->
 
 <?php include "parts/js-files.php" ?>

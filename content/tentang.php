@@ -13,15 +13,15 @@
     <!-- Profile Image -->
     <div class="box box-primary">
       <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="assets/img/team/1.jpg" alt="User profile picture">
+            <img class="profile-user-img img-responsive img-circle" src="img/linda.png" alt="User profile picture">
 
-            <h3 class="profile-username text-center">Linda tri wulandari </h3>
+            <h3 class="profile-username text-center">Linda Tri Wulandari </h3>
 
             <p class="text-muted text-center">Pembimbing</p>
        </div>
 
        <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="assets/img/team/7.jpg" alt="User profile picture">
+            <img class="profile-user-img img-responsive img-circle" src="img/1.jpg" alt="User profile picture">
 
             <h3 class="profile-username text-center">Suqya rohmatin</h3>
 
@@ -29,7 +29,7 @@
        </div>
 
        <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="assets/img/team/9.jpg" alt="User profile picture">
+            <img class="profile-user-img img-responsive img-circle" src="img/2.jpg" alt="User profile picture">
 
             <h3 class="profile-username text-center">Eviana eka safitri</h3>
 
@@ -37,17 +37,17 @@
        </div>
 
        <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="assets/img/team/10.jpg" alt="User profile picture">
+            <img class="profile-user-img img-responsive img-circle" src="img/3.jpg" alt="User profile picture">
 
-            <h3 class="profile-username text-center">azaria diva natanaila</h3>
+            <h3 class="profile-username text-center">azaria diva natalia</h3>
 
             <p class="text-muted text-center">Anggota</p>
        </div>
 
        <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="assets/img/team/11.jpg" alt="User profile picture">
+            <img class="profile-user-img img-responsive img-circle" src="img/4.jpg" alt="User profile picture">
 
-            <h3 class="profile-username text-center">Zevalia putri </h3>
+            <h3 class="profile-username text-center">Zeva lia putri </h3>
 
             <p class="text-muted text-center">Anggota</p>
        </div>
@@ -97,65 +97,29 @@
                 
                 <!-- /.post -->
 
-                <!-- Post -->
-                <div class="post">
-                  <div class="user-block">
-                        <span class="username">
-                          <a ><center>Foto koperasi</center></a>
-                        </span>
-                  </div>
-                  <!-- /.user-block -->
-                  <div class="row margin-bottom">
-                    <div class="col-sm-6">
-                      <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
-                    </div>
-                    <!-- /.col -->
-                    <div class="col-sm-6">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo2.png" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo3.jpg" alt="Photo">
-                        </div>
-                        <!-- /.col -->
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo4.jpg" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
-                        </div>
-                        <!-- /.col -->
-                      </div>
-                      <!-- /.row -->
-                    </div>
-                    <!-- /.col -->
-                  </div>
-                  <!-- /.row -->
-                </div>
+                
                 <div class="post">
                   <div class="user-block">
                         <span class="username">
                           <a ><center>Data manual</center></a>
                         </span>
                   </div>
-                  <!-- /.user-block -->
                   <div class="row margin-bottom">
                     <div class="col-sm-6">
-                      <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
+                      <img class="img-responsive" src="img/sana.jpg" alt="Photo">
+                    </div>
+                    
+                    <div class="col-sm-6">
+                      <img class="img-responsive" src="img/aku.jpg" alt="Photo">
                     </div>
                     <!-- /.col -->
                     <div class="col-sm-6">
                       <div class="row">
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo2.png" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo3.jpg" alt="Photo">
+                   
+                          
                         </div>
                         <!-- /.col -->
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo4.jpg" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
-                        </div>
+                        
                         <!-- /.col -->
                       </div>
                       <!-- /.row -->
@@ -173,22 +137,19 @@
                   <!-- /.user-block -->
                   <div class="row margin-bottom">
                     <div class="col-sm-6">
-                      <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
+                      <img class="img-responsive" src="img/kamu.png" alt="Photo">
+                    </div>
+                    <div class="col-sm-6">
+                      <img class="img-responsive" src="img/data.png" alt="Photo">
                     </div>
                     <!-- /.col -->
                     <div class="col-sm-6">
                       <div class="row">
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo2.png" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo3.jpg" alt="Photo">
+                   
+                          
                         </div>
                         <!-- /.col -->
-                        <div class="col-sm-6">
-                          <img class="img-responsive" src="../../dist/img/photo4.jpg" alt="Photo">
-                          <br>
-                          <img class="img-responsive" src="../../dist/img/photo1.png" alt="Photo">
-                        </div>
+                        
                         <!-- /.col -->
                       </div>
                       <!-- /.row -->
@@ -204,4 +165,5 @@
             <!-- /.tab-content -->
 
         </div>
+</section_>
     

@@ -9,26 +9,22 @@
          <div class="box">
             <div class="box-header">
 <!--              <h3 class="box-title">Data Table With Full Features</h3>-->
-                <a class="btn btn-md btn-warning" href="?hal=koperasi_tambah"> Tambah Barang</a>
+                <a class="btn btn-md btn-info" href="?hal=koperasi_tambah"> Tambah Barang</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
               <table id="example1" class="table table-bordered table-striped">
-              <div class="row">
-        <div class="col-xs-12">
-          
-            
-            </div>
-
                 <thead>
                 <tr>
                   <th>No</th>
                   <th>Tanggal</th>
-                  <th>Nama</th>
+                  <th>Nama barang</th>
                   <th>Jumlah</th>
                   <th>Beli</th>
                   <th>Jual</th>
                   <th>Laba</th>
+                  <th>aksi</th>
+
                 </tr>
                 </thead>
                 <tbody>
@@ -37,17 +33,14 @@ $tampil = "SElECT * FROM data_barkop";
 $query = mysqli_query($koneksi,$tampil);
 $no=0;
 while ($data = mysqli_fetch_array($query)) {
- //        var_dump($data);
+ //var_dump($data);
  $no++;
+
 ?>
-
-           
-  
-
                 <tr>
                   <td><?= $no; ?></td>
                   <td><?= $data['tanggal']; ?></td>
-                  <td><?= $data['nama']; ?></td>
+                  <td><?= $data['barang']; ?></td>
                   <td><?= $data['jumlah']; ?></td>
                   <td><?= $data['beli']; ?></td>
                   <td><?= $data['jual']; ?></td>
@@ -71,10 +64,9 @@ while ($data = mysqli_fetch_array($query)) {
 
                 </tbody>
               </table>
-            
+            </div>
           <!-- /.box -->
-     </div>
-     
- </div>
-
+     </div> 
+</div>
 </section>
+

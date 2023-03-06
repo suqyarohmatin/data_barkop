@@ -2,7 +2,7 @@
 include "library/config.php";
 //menampung nilai variable $_POST
 $tanggal=$_POST['tanggal' ];
-$nama =$_POST['nama' ];
+$barang =$_POST['barang' ];
 $jumlah=$_POST['jumlah'];
 $beli =$_POST['beli'];
 $jual =$_POST['jual'];
@@ -11,7 +11,7 @@ $laba  =$_POST['laba'];
 //memasukkan data ke dalam database
 $q="INSERT INTO data_barkop SET
 tanggal = '$tanggal',
-nama = '$nama',
+barang = '$barang',
 jumlah = '$jumlah',
 beli = '$beli',
 jual = '$jual',

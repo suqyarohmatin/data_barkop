@@ -26,7 +26,7 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="img/logo.png" class="user-image" alt="User Image"p>ADMIN</P>
+              <img src="img/logo.png" class="user-image" alt="User Image">admin 
              
             </a>
             <ul class="dropdown-menu">
@@ -36,11 +36,10 @@
 
                 <p>
                     Admin 
-                  <small>Member since 28 feb 2023</small>
+                  <small>Kelompok-4<br>Five Generation</br></small>
                 </p>
               </li>
-              <!-- Menu Footer-->
-              <li class="user-footer">
+
               <center>
                 <div class="pull-right">
                   <a href="logout.php" class="btn btn-default btn-flat">Keluar</a>
@@ -49,9 +48,6 @@
             </ul>
           </li>
           <!-- Control Sidebar Toggle Button -->
-          <li>
-            
-          </li>
         </ul>
       </div>
     </nav>

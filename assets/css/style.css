@@ -362,16 +362,16 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#tabs-4{
+#hero{
   width: 100%;
   height: 100vh;
-  background: url("img/tabs-4.jpg") top center no-repeat;
+  background: url("img/hero-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
 }
 
-#tabs-4:before {
+#hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -381,20 +381,20 @@ h6 {
   right: 0;
 }
 
-#tabs-4 h1 {
+#hero h1 {
   margin: 0;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
-#tabs-4 h2 {
+#hero h2 {
   color: #fff;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
-#tabs-4 .btn-get-started {
+#hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -409,29 +409,29 @@ h6 {
   border: 2px solid #e03a3c;
 }
 
-#tabs-4 .btn-get-started:hover {
+#hero .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
 
 @media (max-width: 768px) {
-  #tabs-4 {
+  #hero {
     text-align: center;
     padding-top: 58px;
   }
 
-  #tabs-4 h1 {
+  #hero h1 {
     font-size: 28px;
   }
 
-  #tabs-4 h2 {
+  #hero h2 {
     font-size: 18px;
     line-height: 24px;
   }
 }
 
 @media (max-height: 500px) {
-  #tabs-4 {
+  #hero {
     height: 120vh;
   }
 }

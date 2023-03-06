@@ -66,7 +66,7 @@
         <div class="col-xl-6">
           <h1>Management Koperasi Sekolah</h1>
           <h2>Selamat datang di aplikasi kami</h2>
-          <a href="Login.php" class="btn-get-started scrollto">Login</a>
+          <a href="Login.php" class="btn-get-started scrollto">sing in</a>
         </div>
       </div>
     </div>
@@ -111,6 +111,13 @@
                     di era digital saat ini. Kegiatan operasional dan manajemen di koperasi Sekolah saat ini
                      masih terbatas kepada sistem berbasis desktop.</p>
                 </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4>Untuk Mengetahu Untung Ruginya Koperasi</h4>
+                  <p>pengelolaan koperasi sekolah adalah memupuk laba (Sisa Hasil Usaha) untuk kepentingan 
+                    sekolah. Laba atau Sisa Hasil Usaha yang dihasilkan
+                     oleh koperasi sekolah akan digunakan untuk sekolah.</p>
+                </div>
                 
             </div><!-- End .content-->
           </div>
@@ -125,9 +132,6 @@
 
         <div class="row">
 
-          
-
-
         </div>
 
       </div>
@@ -136,13 +140,6 @@
     </section><!-- End Tabs Section -->
 
     
-
-   
-
-        
-
-        
-
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
@@ -151,7 +148,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Team</h2>
+          <h2>application development group</h2>
           <p>"Bersikaplah kuat saat kamu berjuang menuju kesuksesan. Kesulitan yang kau hadapi tidak seberapa dibandingkan dengan kegembiraan kesuksesan."</p>
         </div>
 
@@ -160,76 +157,83 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                
+                <img src="assets/img/team/bu.png" class="img-fluid" alt="">
+<center>
               </div>
               <div class="member-info">
                 <h4>Dwi Ratna Budiyanti</h4>
                 <span>Pembimbing</span>
+                <p> "Menyerah berarti menerima bahwa kamu lelah. Tetapi untuk beristirahat dan mencoba lagi adalah tanda sebuah tekad."</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/7.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/5.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
                 <h4>Suqya Rohmatin</h4>
                 <span>database programer</span>
+                <p>"Semakin keras kamu bekerja untuk sesuatu, semakin besar kamu merasakannya ketika mencapainya."</p>
               </div>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/tiara.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/6.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
                 <h4>Tiara Eka Arianti</h4>
                 <span>web programer</span>
+                <p> "Bersyukurlah ketika merasa lelah, tidak semua orang bisa sekuat kamu."</p>
               </div>
             </div>
           </div>
 
           
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/6.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/9.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
                 <h4>Diana</h4>
                 <span>Data Analisis</span>
+                <p>"Jangan menyerah, kebahagiaan akan hadir setelah lelahmu."</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/4.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/7.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
                 <h4>Arbain nawawi</h4>
                 <span>UI/UX Desig</span>
+                <p>"Mereka Hanya Bisa Mengejek Tetapi Mereka Tidak Bisa Mengikuti"</p>
               </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/team/5.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/8.jpg" class="img-fluid" alt="">
                 
               </div>
               <div class="member-info">
                 <h4>Najib Ulil Absyor</h4>
                 <span>Desain aplicasion</span>
+                <p> "Jangan pernah lelah dengan mimpi, jika tidak terpenuhi. Ketakutan akan kegagalan seharusnya tidak menghalangimu dari jalan kepercayaan diri."</p>
+ </center>
               </div>
             </div>
           </div>

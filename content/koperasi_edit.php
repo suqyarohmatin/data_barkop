@@ -47,11 +47,15 @@ $data = mysqli_fetch_array($query);
                     </div>
                     <div class="form-group">
                       <label for="beli"> beli </label>
-                      <input type="text" class="form-control" name="beli" id="beli" value="<?= $data['beli'] ?>" required>
+                      <input type="text" class="form-control" name="beli" id="beli" value="<?= $data['beli'] ?>" required
+                      onkeyup="cek_laba();"
+                      >
                     </div>                 
                     <div class="form-group">
                       <label for="jual"> Jual: </label>
-                      <input type="text" class="form-control" name="jual" id="jual" value="<?= $data['jual'] ?>" required>
+                      <input type="text" class="form-control" name="jual" id="jual" value="<?= $data['jual'] ?>" required
+                      onkeyup="cek_laba();"
+                      >
                     </div>
                     <div class="form-group">
                       <label for="laba"> laba: </label>
@@ -70,5 +74,16 @@ $data = mysqli_fetch_array($query);
         </div>
 </div>
 </section>
+<script>
+function cek_laba() {
+      var txtFirstNumberValue = document.getElementById('beli').value;
+      var txtSecondNumberValue = document.getElementById('jual').value;
+      var result = parseInt(txtSecondNumberValue) - parseInt(txtFirstNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('laba').value = result;
+      }
+}
+</script>
+
 </body>
 </html>
