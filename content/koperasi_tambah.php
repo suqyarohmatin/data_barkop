@@ -40,7 +40,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="laba">laba</label>
-                                <input type="number" class="form-control" name="laba" id="laba" required>
+                                <input type="number" class="form-control" name="laba" id="laba" required
+                                onkeyup="cek_laba();"
+                                >
                             </div>
                             
  

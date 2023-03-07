@@ -38,8 +38,8 @@ $data = mysqli_fetch_array($query);
                       <input type="date" class="timestamp" name="tanggal" id="tanggal" value="<?= $data['tanggal'] ?>" required>
                     </div>
                     <div class="form-group">
-                      <label for="nama">nama : </label>
-                      <input type="text" class="form-control" name="nama" id="nama" value="<?= $data['nama'] ?>" required>
+                      <label for="barang">barang : </label>
+                      <input type="text" class="form-control" name="barang" id="barang" value="<?= $data['barang'] ?>" required>
                     </div>  
                    <div class="form-group">
                       <label for="jumlah">jumlah  : </label>

@@ -1,8 +1,4 @@
-<section class="content-header">
-      <h1>
-        Profil Koprasi
-      </h1>
-</section>
+
 
    <!-- Main content -->
    <section class="content">
@@ -11,57 +7,14 @@
   <div class="col-md-3">
 
     <!-- Profile Image -->
-    <div class="box box-primary">
-      <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="img/linda.png" alt="User profile picture">
-
-            <h3 class="profile-username text-center">Linda Tri Wulandari </h3>
-
-            <p class="text-muted text-center">Pembimbing</p>
-       </div>
-
-       <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="img/1.jpg" alt="User profile picture">
-
-            <h3 class="profile-username text-center">Suqya rohmatin</h3>
-
-            <p class="text-muted text-center">Koordinator</p>
-       </div>
-
-       <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="img/2.jpg" alt="User profile picture">
-
-            <h3 class="profile-username text-center">Eviana eka safitri</h3>
-
-            <p class="text-muted text-center">Anggota</p>
-       </div>
-
-       <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="img/3.jpg" alt="User profile picture">
-
-            <h3 class="profile-username text-center">azaria diva natalia</h3>
-
-            <p class="text-muted text-center">Anggota</p>
-       </div>
-
-       <div class="box-body box-profile">
-            <img class="profile-user-img img-responsive img-circle" src="img/4.jpg" alt="User profile picture">
-
-            <h3 class="profile-username text-center">Zeva lia putri </h3>
-
-            <p class="text-muted text-center">Anggota</p>
-       </div>
-
     
-      <!-- /.box-body -->
-     </div>
     <!-- /.box -->
 </div>
 
-<div class="col-md-9">
+<div class="col-md-20">
           <div class="nav-tabs-custom">
             <ul class="nav nav-tabs">
-              <li class="active"><a href="activity" data-toggle="tab">Activity</a></li>
+              <li class="active"></li>
             </ul>
             <div class="tab-content">
               <div class="active tab-pane" id="activity">

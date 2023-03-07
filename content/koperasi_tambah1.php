@@ -37,7 +37,9 @@
                         </div>
                         <div class="form-group">
                                 <label for="jual">jual</label>
-                                <input type="number" class="form-control" name="jual" id="jual" placeholder="jual"required>
+                                <input type="number" class="form-control" name="jual" id="jual" placeholder="jual"required
+                                onkeyup="cek_jumal();"
+                                >
                         </div>
                         <div class="form-group">
                                 <label for="keluar">keluar</label>
@@ -53,19 +55,19 @@
                         <div class="form-group">
                                 <label for="jumbel">jumbel</label>
                                 <input type="text" class="form-control" name="jumbel" id="jumbel" placeholder="jumbel"required 
-                                
+                                onkeyup="cek_jumbel();"
                                 >
                         </div> 
                         <div class="form-group">
                                 <label for="jumal">jumal</label>
                                 <input type="text" class="form-control" name="jumal" id="jumal" placeholder="jumal"required 
-                               
+                                onkeyup="cek_jumal();"
                                 >
                         </div> 
                         <div class="form-group">
                                 <label for="laba">laba</label>
                                 <input type="text" class="form-control" name="laba" id="laba" required
-                               
+                                
                                 >
                         </div>
  
@@ -107,7 +109,6 @@ function cek_jumbel() {
          document.getElementById('jumbel').value = result;
       }
 }
-onkeyup="cek_laba();"
 </script>
 <script>
 function cek_jumal() {
@@ -122,8 +123,8 @@ onkeyup="cek_laba();"
 </script>
 <script>
 function cek_laba() {
-      var txtFirstNumberValue = document.getElementById=cek_jumbel.value;
-      var txtSecondNumberValue = document.getElementById=cek_jumal.value;
+      var txtFirstNumberValue = document.getElementById('jumbel').value;
+      var txtSecondNumberValue = document.getElementById('jumal').value;
       var result = parseInt(txtSecondNumberValue) - parseInt(txtFirstNumberValue);
       if (!isNaN(result)) {
          document.getElementById('laba').value = result;

@@ -43,19 +43,26 @@ $data = mysqli_fetch_array($query);
                     </div>  
                    <div class="form-group">
                       <label for="jumlah">jumlah  : </label>
-                      <input type="text" class="form-control" name="jumlah" id="jumlah" value="<?= $data['jumlah'] ?>" required>
+                      <input type="text" class="form-control" name="jumlah" id="jumlah" value="<?= $data['jumlah'] ?>" required
+                      onkeyup="cek_sisa();">
                     </div>
                     <div class="form-group">
                       <label for="beli"> beli </label>
-                      <input type="text" class="form-control" name="beli" id="beli" value="<?= $data['beli'] ?>" required>
+                      <input type="text" class="form-control" name="beli" id="beli" value="<?= $data['beli'] ?>" required
+                      onkeyup="cek_jumbel();"
+                      >
                     </div>                 
                     <div class="form-group">
                       <label for="jual"> Jual: </label>
-                      <input type="text" class="form-control" name="jual" id="jual" value="<?= $data['jual'] ?>" required>
+                      <input type="text" class="form-control" name="jual" id="jual" value="<?= $data['jual'] ?>" required
+                      onkeyup="cek_jumal();"
+                      >
                     </div>
                     <div class="form-group">
                       <label for="keluar"> keluar: </label>
-                      <input type="text" class="form-control" name="keluar" id="keluar" value="<?= $data['keluar'] ?>" required>
+                      <input type="text" class="form-control" name="keluar" id="keluar" value="<?= $data['keluar'] ?>" required
+                      onkeyup="cek_jumbel(),cek_sisa(),cek_jumal()" 
+                      >
                     </div>
                     <div>
                       <label for="sisa"> sisa: </label>
@@ -90,6 +97,39 @@ $data = mysqli_fetch_array($query);
         </div>
 </div>
 </section>
+
+<script>
+function cek_sisa() {
+      var txtFirstNumberValue = document.getElementById('jumlah').value;
+      var txtSecondNumberValue = document.getElementById('keluar').value;
+      var result = parseInt(txtFirstNumberValue) - parseInt(txtSecondNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('sisa').value = result;
+      }
+}
+</script>
+<script>
+function cek_jumbel() {
+      var txtFirstNumberValue = document.getElementById('beli').value;
+      var txtSecondNumberValue = document.getElementById('keluar').value;
+      var result = parseInt(txtFirstNumberValue) * parseInt(txtSecondNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('jumbel').value = result;
+      }
+}
+
+</script>
+<script>
+function cek_jumal() {
+      var txtFirstNumberValue = document.getElementById('jual').value;
+      var txtSecondNumberValue = document.getElementById('keluar').value;
+      var result = parseInt(txtFirstNumberValue) * parseInt(txtSecondNumberValue);
+      if (!isNaN(result)) {
+         document.getElementById('jumal').value = result;
+      }
+}
+
+</script>
 <script>
 function cek_laba() {
       var txtFirstNumberValue = document.getElementById('jumbel').value;
